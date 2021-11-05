@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    font-size: 30px;
+}
+
+.calc {
+    width: 320px;
+    background-color: gainsboro;
+}
+
+.screen {
+    width: 320px;
+    height: 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10%;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: transparent;
+}
+
+.btn:active {
+    background-color: #cbbbce;
+}
+
+.c-btn-width {
+    width: 160px;
+}
+
+.zero-btn-width {
+    width: 240px;
+}
+
+.calc-funct {
+    background-color: peru;
+    color: white;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="calc">
+      <section class="screen"></section>
+      <section class="buttons">
+        <button class="btn c-btn-width" id="c" onclick="clearResult()">
+          C
+        </button>
+        <button class="btn" id="bc" onclick="backSpace()">←</button>
+        <button class="btn calc-funct" id="divide" onclick="getAction(this.id)">
+          ÷
+        </button>
+        <button class="btn" id="7" onclick="getNumber(this.id)">7</button>
+        <button class="btn" id="8" onclick="getNumber(this.id)">8</button>
+        <button class="btn" id="9" onclick="getNumber(this.id)">9</button>
+        <button
+          class="btn calc-funct"
+          id="multiply"
+          onclick="getAction(this.id)"
+        >
+          ×
+        </button>
+        <button class="btn" id="4" onclick="getNumber(this.id)">4</button>
+        <button class="btn" id="5" onclick="getNumber(this.id)">5</button>
+        <button class="btn" id="6" onclick="getNumber(this.id)">6</button>
+        <button class="btn calc-funct" id="minus" onclick="getAction(this.id)">
+          -
+        </button>
+        <button class="btn" id="1" onclick="getNumber(this.id)">1</button>
+        <button class="btn" id="2" onclick="getNumber(this.id)">2</button>
+        <button class="btn" id="3" onclick="getNumber(this.id)">3</button>
+        <button class="btn calc-funct" id="plus" onclick="getAction(this.id)">
+          +
+        </button>
+        <button class="btn zero-btn-width" id="0" onclick="getNumber(this.id)">
+          0
+        </button>
+        <button class="btn calc-funct" id="=" onclick="getAnswer()">=</button>
+      </section>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
